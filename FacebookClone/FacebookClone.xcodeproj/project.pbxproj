@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48FB9A9EFAA31585E4C9CEE9 /* Pods_FacebookClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEF1795668A8571A4C6A6F9 /* Pods_FacebookClone.framework */; };
+		662B3702202B67FE00A7D9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B3701202B67FE00A7D9F3 /* AppDelegate.swift */; };
+		662B3704202B67FE00A7D9F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B3703202B67FE00A7D9F3 /* ViewController.swift */; };
+		662B3707202B67FE00A7D9F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B3705202B67FE00A7D9F3 /* Main.storyboard */; };
+		662B3709202B67FE00A7D9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662B3708202B67FE00A7D9F3 /* Assets.xcassets */; };
+		662B370C202B67FE00A7D9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B370A202B67FE00A7D9F3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		662B36FE202B67FE00A7D9F3 /* FacebookClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		662B3701202B67FE00A7D9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		662B3703202B67FE00A7D9F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		662B3706202B67FE00A7D9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		662B3708202B67FE00A7D9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		662B370B202B67FE00A7D9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		662B370D202B67FE00A7D9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A52DF42D07BD5DF2971588 /* Pods-FacebookClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookClone/Pods-FacebookClone.debug.xcconfig"; sourceTree = "<group>"; };
+		EAEF1795668A8571A4C6A6F9 /* Pods_FacebookClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB293AAA93ED203D6E25140E /* Pods-FacebookClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookClone/Pods-FacebookClone.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662B36FB202B67FE00A7D9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FB9A9EFAA31585E4C9CEE9 /* Pods_FacebookClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662B36F5202B67FE00A7D9F3 = {
+			isa = PBXGroup;
+			children = (
+				662B3700202B67FE00A7D9F3 /* FacebookClone */,
+				662B36FF202B67FE00A7D9F3 /* Products */,
+				AC1195A53E3E857D8B8E651C /* Pods */,
+				9B67F62BC4E3BD38AF843184 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		662B36FF202B67FE00A7D9F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662B36FE202B67FE00A7D9F3 /* FacebookClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662B3700202B67FE00A7D9F3 /* FacebookClone */ = {
+			isa = PBXGroup;
+			children = (
+				662B3701202B67FE00A7D9F3 /* AppDelegate.swift */,
+				662B3703202B67FE00A7D9F3 /* ViewController.swift */,
+				662B3705202B67FE00A7D9F3 /* Main.storyboard */,
+				662B3708202B67FE00A7D9F3 /* Assets.xcassets */,
+				662B370A202B67FE00A7D9F3 /* LaunchScreen.storyboard */,
+				662B370D202B67FE00A7D9F3 /* Info.plist */,
+			);
+			path = FacebookClone;
+			sourceTree = "<group>";
+		};
+		9B67F62BC4E3BD38AF843184 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAEF1795668A8571A4C6A6F9 /* Pods_FacebookClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC1195A53E3E857D8B8E651C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89A52DF42D07BD5DF2971588 /* Pods-FacebookClone.debug.xcconfig */,
+				FB293AAA93ED203D6E25140E /* Pods-FacebookClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662B36FD202B67FE00A7D9F3 /* FacebookClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662B3710202B67FE00A7D9F3 /* Build configuration list for PBXNativeTarget "FacebookClone" */;
+			buildPhases = (
+				AB14C7E4EE97B8F38D8A7884 /* [CP] Check Pods Manifest.lock */,
+				662B36FA202B67FE00A7D9F3 /* Sources */,
+				662B36FB202B67FE00A7D9F3 /* Frameworks */,
+				662B36FC202B67FE00A7D9F3 /* Resources */,
+				ACBAB7709A92676109BB7F96 /* [CP] Embed Pods Frameworks */,
+				1F420F612C4FAC8A330D4532 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookClone;
+			productName = FacebookClone;
+			productReference = 662B36FE202B67FE00A7D9F3 /* FacebookClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662B36F6202B67FE00A7D9F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DM;
+				TargetAttributes = {
+					662B36FD202B67FE00A7D9F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 662B36F9202B67FE00A7D9F3 /* Build configuration list for PBXProject "FacebookClone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662B36F5202B67FE00A7D9F3;
+			productRefGroup = 662B36FF202B67FE00A7D9F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662B36FD202B67FE00A7D9F3 /* FacebookClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662B36FC202B67FE00A7D9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662B370C202B67FE00A7D9F3 /* LaunchScreen.storyboard in Resources */,
+				662B3709202B67FE00A7D9F3 /* Assets.xcassets in Resources */,
+				662B3707202B67FE00A7D9F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F420F612C4FAC8A330D4532 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookClone/Pods-FacebookClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB14C7E4EE97B8F38D8A7884 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBAB7709A92676109BB7F96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookClone/Pods-FacebookClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662B36FA202B67FE00A7D9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662B3704202B67FE00A7D9F3 /* ViewController.swift in Sources */,
+				662B3702202B67FE00A7D9F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		662B3705202B67FE00A7D9F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662B3706202B67FE00A7D9F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		662B370A202B67FE00A7D9F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662B370B202B67FE00A7D9F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662B370E202B67FE00A7D9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		662B370F202B67FE00A7D9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662B3711202B67FE00A7D9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A52DF42D07BD5DF2971588 /* Pods-FacebookClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK62365QR6;
+				INFOPLIST_FILE = FacebookClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dm.diogo.martins.FacebookClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		662B3712202B67FE00A7D9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB293AAA93ED203D6E25140E /* Pods-FacebookClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KK62365QR6;
+				INFOPLIST_FILE = FacebookClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dm.diogo.martins.FacebookClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662B36F9202B67FE00A7D9F3 /* Build configuration list for PBXProject "FacebookClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662B370E202B67FE00A7D9F3 /* Debug */,
+				662B370F202B67FE00A7D9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662B3710202B67FE00A7D9F3 /* Build configuration list for PBXNativeTarget "FacebookClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662B3711202B67FE00A7D9F3 /* Debug */,
+				662B3712202B67FE00A7D9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662B36F6202B67FE00A7D9F3 /* Project object */;
+}
