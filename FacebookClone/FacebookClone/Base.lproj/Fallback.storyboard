@@ -28,7 +28,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fei-bX-DXJ">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="451"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a0O-lR-wel">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SEI" translatesAutoresizingMaskIntoConstraints="NO" id="a0O-lR-wel">
                                                     <rect key="frame" x="12" y="12" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="32D-JL-E65"/>
@@ -53,7 +53,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="W2l-8h-d70">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SEI" translatesAutoresizingMaskIntoConstraints="NO" id="W2l-8h-d70">
                                                     <rect key="frame" x="0.0" y="139" width="375" height="300"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="300" id="e5c-Sr-0m2"/>
@@ -119,4 +119,7 @@
             <point key="canvasLocation" x="-218" y="92"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SEI" width="250" height="250"/>
+    </resources>
 </document>

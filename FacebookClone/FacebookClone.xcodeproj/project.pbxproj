@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		48FB9A9EFAA31585E4C9CEE9 /* Pods_FacebookClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAEF1795668A8571A4C6A6F9 /* Pods_FacebookClone.framework */; };
+		6618DA3C202B70D600946BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6618DA3A202B70D600946BCD /* Main.storyboard */; };
 		662B3702202B67FE00A7D9F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B3701202B67FE00A7D9F3 /* AppDelegate.swift */; };
-		662B3707202B67FE00A7D9F3 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B3705202B67FE00A7D9F3 /* Main2.storyboard */; };
+		662B3707202B67FE00A7D9F3 /* Fallback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B3705202B67FE00A7D9F3 /* Fallback.storyboard */; };
 		662B3709202B67FE00A7D9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662B3708202B67FE00A7D9F3 /* Assets.xcassets */; };
 		662B370C202B67FE00A7D9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B370A202B67FE00A7D9F3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6618DA3B202B70D600946BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		662B36FE202B67FE00A7D9F3 /* FacebookClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		662B3701202B67FE00A7D9F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		662B3706202B67FE00A7D9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main2.storyboard; sourceTree = "<group>"; };
+		662B3706202B67FE00A7D9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Fallback.storyboard; sourceTree = "<group>"; };
 		662B3708202B67FE00A7D9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662B370B202B67FE00A7D9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662B370D202B67FE00A7D9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				662B3701202B67FE00A7D9F3 /* AppDelegate.swift */,
-				662B3705202B67FE00A7D9F3 /* Main2.storyboard */,
+				662B3705202B67FE00A7D9F3 /* Fallback.storyboard */,
+				6618DA3A202B70D600946BCD /* Main.storyboard */,
 				662B3708202B67FE00A7D9F3 /* Assets.xcassets */,
 				662B370A202B67FE00A7D9F3 /* LaunchScreen.storyboard */,
 				662B370D202B67FE00A7D9F3 /* Info.plist */,
@@ -149,7 +152,8 @@
 			files = (
 				662B370C202B67FE00A7D9F3 /* LaunchScreen.storyboard in Resources */,
 				662B3709202B67FE00A7D9F3 /* Assets.xcassets in Resources */,
-				662B3707202B67FE00A7D9F3 /* Main2.storyboard in Resources */,
+				662B3707202B67FE00A7D9F3 /* Fallback.storyboard in Resources */,
+				6618DA3C202B70D600946BCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,12 +219,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		662B3705202B67FE00A7D9F3 /* Main2.storyboard */ = {
+		6618DA3A202B70D600946BCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6618DA3B202B70D600946BCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		662B3705202B67FE00A7D9F3 /* Fallback.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				662B3706202B67FE00A7D9F3 /* Base */,
 			);
-			name = Main2.storyboard;
+			name = Fallback.storyboard;
 			sourceTree = "<group>";
 		};
 		662B370A202B67FE00A7D9F3 /* LaunchScreen.storyboard */ = {
