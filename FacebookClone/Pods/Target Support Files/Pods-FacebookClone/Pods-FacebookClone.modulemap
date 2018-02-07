@@ -1,0 +1,6 @@
+framework module Pods_FacebookClone {
+  umbrella header "Pods-FacebookClone-umbrella.h"
+
+  export *
+  module * { export * }
+}
