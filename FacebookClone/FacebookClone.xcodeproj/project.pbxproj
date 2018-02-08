@@ -13,6 +13,8 @@
 		662B3707202B67FE00A7D9F3 /* Fallback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B3705202B67FE00A7D9F3 /* Fallback.storyboard */; };
 		662B3709202B67FE00A7D9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662B3708202B67FE00A7D9F3 /* Assets.xcassets */; };
 		662B370C202B67FE00A7D9F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B370A202B67FE00A7D9F3 /* LaunchScreen.storyboard */; };
+		668DDD5C202C6B0F0083C754 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668DDD5B202C6B0F0083C754 /* Network.swift */; };
+		668DDD5E202C6CA60083C754 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668DDD5D202C6CA60083C754 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		662B3708202B67FE00A7D9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662B370B202B67FE00A7D9F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662B370D202B67FE00A7D9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668DDD5B202C6B0F0083C754 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		668DDD5D202C6CA60083C754 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		89A52DF42D07BD5DF2971588 /* Pods-FacebookClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookClone/Pods-FacebookClone.debug.xcconfig"; sourceTree = "<group>"; };
 		EAEF1795668A8571A4C6A6F9 /* Pods_FacebookClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FacebookClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB293AAA93ED203D6E25140E /* Pods-FacebookClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookClone/Pods-FacebookClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				662B3708202B67FE00A7D9F3 /* Assets.xcassets */,
 				662B370A202B67FE00A7D9F3 /* LaunchScreen.storyboard */,
 				662B370D202B67FE00A7D9F3 /* Info.plist */,
+				668DDD5B202C6B0F0083C754 /* Network.swift */,
+				668DDD5D202C6CA60083C754 /* Post.swift */,
 			);
 			path = FacebookClone;
 			sourceTree = "<group>";
@@ -212,6 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668DDD5E202C6CA60083C754 /* Post.swift in Sources */,
+				668DDD5C202C6B0F0083C754 /* Network.swift in Sources */,
 				662B3702202B67FE00A7D9F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KK62365QR6;
 				INFOPLIST_FILE = FacebookClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dm.diogo.martins.FacebookClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,6 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KK62365QR6;
 				INFOPLIST_FILE = FacebookClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dm.diogo.martins.FacebookClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
