@@ -11,13 +11,10 @@ import SwiftyJSON
 
 class Post {
   var name = "SEI 2018"
-  var createdAt: Date
   var text: String
   var url: URL?
-  var isLiked = false
 
   init() {
-    self.createdAt = Date()
     self.text = ""
     self.url = URL(string: "")
   }
